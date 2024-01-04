@@ -1,0 +1,57 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  padding: 100px 0;
+  background: linear-gradient(to right, #d00707, #f3c921);
+}
+
+.hero-section img {
+  max-width: 100%;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+}
+
+.hero-section p {
+    font-size: 24px;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+#about {
+  background: linear-gradient(to right, #ffffff, #1199c7);
+}
+
+#about p {
+    font-size: 24px;
+}
+
+#location {
+    background: linear-gradient(#000000, #0dd10d);
+    color: azure;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#contact {
+    background-color: #000000;
+    color: white;
+}
