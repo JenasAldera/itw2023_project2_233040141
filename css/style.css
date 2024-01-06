@@ -4,6 +4,7 @@
 
 .hero-section {
   padding: 100px 0;
+  padding-top: 12rem;
   background: linear-gradient(to right, #d00707, #f3c921);
 }
 
@@ -16,24 +17,73 @@
 }
 
 .hero-section p {
-    font-size: 24px;
+  font-size: 32px;
 }
 
 section {
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
 #about {
-  background: linear-gradient(to right, #ffffff, #1199c7);
+  background: linear-gradient(#113bc7,#1199c7);
+  color: white;
+}
+
+#about img {
+  max-width: 100%;
+}
+
+#about h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 #about p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
+#product {
+  background: linear-gradient(#1199c7, #113bc7);
+  color: white;
+}
+
+#product,
+#services p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#services {
+  background: linear-gradient(#113bc7, #1199c7);
+  color: white;
+}
+
+.card, 
+.card img {
+  border-radius: 15px;
+}
+
+.card {
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #f67300;
+  scale: 1.1;
+  transition: background-color 0.5s ease;
+}
+
+
 #location {
-    background: linear-gradient(#000000, #0dd10d);
-    color: azure;
+  background: linear-gradient(#1199c7, #000000);
+  color: azure;
+}
+
+#location p {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .map-responsive {
@@ -51,7 +101,9 @@ section {
   position: absolute;
 }
 
+
 #contact {
-    background-color: #000000;
-    color: white;
+  background-color: #000000;
+  color: white;
+  padding-top: 15rem;
 }
